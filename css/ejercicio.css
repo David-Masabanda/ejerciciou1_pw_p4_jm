@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    display: grid;
+    border: 2px dashed black;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.ejercicio{
+    display: grid;
+    background-color: rgb(240, 248, 255);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+.fotoPokemon{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.opcion{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.restaurar{
+    width: 60%;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    margin-left: 5px;
+    background-color: rgb(240, 128, 128);
+}
+.mensaje{
+    display: none;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgb(224, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(119, 136, 153);
+    border-radius: 15px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

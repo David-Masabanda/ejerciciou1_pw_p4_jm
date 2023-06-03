@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Unidad 1</title>
+    <link rel="stylesheet" href="../css/ejercicio.css" />
+    <script src="../js/ejercicio.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <label id="score" for="">Puntaje:</label>
+        <label id="scoreNum" for="">0</label>
+
+        <label id="intento" for="">Intentos:</label>
+        <label id="intentoNum" for="">0</label>
+ 
+        <label id="fraseInicio" for="">Selecciona el nombre de Pokemon correcto</label>
+      </header>
+      <nav></nav>
+      <section>
+        <div class="ejercicio">
+            <img id="imagen" class="fotoPokemon" src="../img/pnegro.jpg" alt="" />
+            <button class="opcion" onclick="verificar('keldeo-ordinary')">keldeo-ordinary</button>
+            <button class="opcion" onclick="verificar('drilbur')">drilbur</button>
+            <button class="opcion" onclick="verificar('ninjask')">ninjask</button>
+            <button class="opcion" onclick="verificar('excadrill')">excadrill</button>
+            <label id="respuesta" class="mensaje" for="">...</label>
+            <button id="reinicio" class="restaurar" onclick="reinicio()">Reinicio</button>
+        </div>
+ 
+      </section>
+      <footer></footer>
+    </div>
+  </body>
+</html>
